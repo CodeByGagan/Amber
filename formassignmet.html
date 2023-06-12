@@ -1,87 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      th {
-        text-align: left;
-      }
-    </style>
-  </head>
-  <body>
-    <form>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    th {
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body style="display: flex;">
+  <form>
+    <fieldset style="width: 45%;">
+      <!-- <legend>Student Registrtion Form</legend> -->
+
       <table>
         <caption>
           <h3>Student Registration form</h3>
         </caption>
+
         <tr>
           <th><label>Name:</label></th>
           <td>
-            <input
-              type="text"
-              name="Gagan"
-              id="text1"
-              placeholder="Enter your name"
-              maxlength="20"
-              pattern="[A-Za-z]"
-            />
+            <input type="text" name="Gagan" id="text1" placeholder="" maxlength="20" autofocus />
           </td>
         </tr>
 
         <tr>
           <th><label>Age:</label></th>
           <td>
-            <input
-              type="number"
-              name="Gagan"
-              id="text1"
-              placeholder="Enter your age"
-            />
+            <input type="number" name="Gagan" id="text1" placeholder="" />
           </td>
         </tr>
 
         <tr>
           <th><label>Gender:</label></th>
           <td>
-            <input
-              type="text"
-              name="Gagan"
-              id="text1"
-              placeholder="Enter your gender"
-            />
+            <input type="text" name="Gagan" id="text1" placeholder="" />
           </td>
         </tr>
 
         <tr>
           <th><label>Hobbies:</label></th>
           <td>
-            <input
-              type="text"
-              name="Gagan"
-              id="text1"
-              placeholder="Enter your hobbies"
-            />
+            <input type="text" name="Gagan" id="text1" placeholder="" />
           </td>
         </tr>
 
         <tr>
           <th><label>Qualifications:</label></th>
           <td>
-            <input
-              type="text"
-              name="Gagan"
-              id="text1"
-              placeholder="Enter your qualifications"
-            />
+            <input type="text" name="Gagan" id="text1" placeholder="" />
           </td>
         </tr>
 
         <tr>
           <th><label>Course Applied:</label></th>
           <td>
-            <input type="text" list="browsers" placeholder="Select the course"/>
+            <input type="text" list="browsers" placeholder="Select the course" />
             <datalist id="browsers">
               <option value="Internet Explorer"></option>
               <option value="Firefox"></option>
@@ -103,26 +82,14 @@
         <tr>
           <th><label>Email:</label></th>
           <td>
-            <input
-              type="email"
-              name="Gagan"
-              id="text1"
-              placeholder="Enter your email"
-            />
+            <input type="email" name="Gagan" id="text1" placeholder="" />
           </td>
         </tr>
 
         <tr>
           <th><label>Telephone:</label></th>
           <td>
-            <input
-              type="number"
-              name=""
-              placeholder="Enter your telephone no"
-              id=""
-              maxlength="10"
-              minlength="10"
-            />
+            <input type="number" name="" placeholder="" id="" maxlength="10" minlength="10" />
           </td>
         </tr>
 
@@ -135,23 +102,71 @@
         <th>
           <input type="submit" name="" placeholder="" id="" maxlength="10" />
         </th>
-      </table>
-    </form>
-    
 
+      </table>
+    </fieldset>
+  </form>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div>
     <form action="">
-      <fieldset>
+      <fieldset style="width: 35%;">
         <legend>Personalia:</legend>
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="birthday">Birthday:</label>
-        <input type="date" id="birthday" name="birthday"><br><br>
-        <input type="submit" value="Submit">
+        <table>
+          <tr>
+            <th>
+              <label for="fname">First name:</label>
+            </th>
+            <td>
+              <input type="text" id="fname" name="fname">
+            </td>
+          </tr>
+
+
+          <tr>
+            <th>
+              <label for="lname">Last name:</label>
+            </th>
+            <td>
+              <input type="text" id="lname" name="lname">
+            </td>
+          </tr>
+
+
+          <tr>
+            <th>
+              <label for="email">Email:</label>
+            </th>
+            <td>
+              <input type="email" id="email" name="email">
+            </td>
+          </tr>
+
+
+          <tr>
+            <th>
+              <label for="birthday">Birthday:</label>
+            </th>
+            <td>
+              <input type="date" id="birthday" name="birthday">
+            </td>
+          </tr>
+
+
+
+          <tr>
+            <th>
+              <input type="submit" value="Submit">
+            </th>
+          </tr>
+
+        </table>
+
       </fieldset>
     </form>
-  </body>
+  </div>
+</body>
+
 </html>
